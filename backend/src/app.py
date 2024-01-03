@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from flask_restful import Api
-from resources.routes import initialize_routes
+from src.resources.routes import initialize_routes
 
 app = Flask('Task Management App')
 api = Api(app)
